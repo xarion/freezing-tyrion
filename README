@@ -1,3 +1,7 @@
 do your worst gentlemen.
 
+added nginx and supervisor. you can see the configurations in
+nginx -> conf/proxy_python
+supervisor -> conf/app.conf
+
 http://54.154.214.128:8000/run?command=ls

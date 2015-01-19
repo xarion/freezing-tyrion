@@ -1,0 +1,10 @@
+server {
+  listen 80;
+  server_name 54.154.158.219;
+  access_log  /var/log/nginx/python.access.log;
+  error_log  /var/log/nginx/python.error.log;
+
+  location / {
+    proxy_pass  http://127.0.0.1:8000/;
+  }
+}
