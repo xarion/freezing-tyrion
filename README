@@ -4,4 +4,6 @@ added nginx and supervisor. you can see the configurations in
 /etc/nginx/sites-available/proxy_pyton -> conf/proxy_python
 /etc/supervisor/conf.d/app.conf -> conf/app.conf
 
+Useful Links;
 http://54.154.158.219/run?command=ls
+http://54.154.158.219/run?command=tail%20/var/log/nginx/python.access.log
