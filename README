@@ -1,19 +1,2 @@
-do your worst gentlemen.
-
-added nginx and supervisor. you can see the configurations in
-/etc/nginx/sites-available/proxy_pyton -> conf/proxy_python
-/etc/supervisor/conf.d/app.conf -> conf/app.conf
-
-Useful Links;
-http://gentlemens.io/run?command=ls
-
-latest commands;
-http://gentlemens.io/run?command=tail%20/var/log/nginx/python.access.log
-
-number of IP's;
-http://gentlemens.io/run?command=awk%20%27{print%20$1}%27%20/var/log/nginx/python.access.log%20|sort%20-u%20|wc%20-l
-
-list of IP's;
-http://gentlemens.io/run?command=awk%20%27{print%20$1}%27%20/var/log/nginx/python.access.log%20|sort%20-u%20
-
-you're cleaver, figure it out
+attempts;
+http://pastebin.com/wdEd6GTZ
