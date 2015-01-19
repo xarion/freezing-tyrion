@@ -1,6 +1,6 @@
 server {
   listen 80;
-  server_name 54.154.158.219;
+  server_name gentlemens.io;
   access_log  /var/log/nginx/python.access.log;
   error_log  /var/log/nginx/python.error.log;
 
